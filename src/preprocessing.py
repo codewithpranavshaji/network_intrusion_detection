@@ -113,7 +113,7 @@ def build_preprocessor(X_train: pd.DataFrame) -> ColumnTransformer:
     """
     numeric_cols = X_train.select_dtypes(include=[np.number]).columns.tolist()
     categorical_cols = X_train.select_dtypes(
-        include=["object", "category"]
+        include=["object", "str", "category"]
     ).columns.tolist()
 
     logger.info(

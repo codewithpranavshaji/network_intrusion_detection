@@ -33,7 +33,7 @@ def _make_df(
     """Create a synthetic DataFrame that mimics UNSW-NB15 columns."""
     rng = np.random.default_rng(42)
     if label_values is None:
-        label_values = [0, 1] * (n // 2)
+        label_values = ([0, 1] * ((n // 2) + 1))[:n]
 
     df = pd.DataFrame(
         {
