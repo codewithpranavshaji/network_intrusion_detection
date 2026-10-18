@@ -27,7 +27,7 @@ Thumbs.db
 # Generated ML artifacts (keep folder, ignore contents)
 outputs/*
 !outputs/.gitkeep
-*.joblib
+!outputs/intrusion_detection_model.joblib
 *.pkl
 *.pickle
 
