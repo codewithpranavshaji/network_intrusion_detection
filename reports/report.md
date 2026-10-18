@@ -219,12 +219,6 @@ model.py  ──► build RandomForestClassifier
 
 ## 8. Results and Graphs
 
-> [!NOTE]
-> **Results pending — run `python train_model.py` to populate this section.**
->
-> After training, replace the placeholders below with actual values
-> from `outputs/metrics.json`.
-
 ### Evaluation Metrics
 
 | Metric | Value |
