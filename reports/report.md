@@ -229,11 +229,11 @@ model.py  ──► build RandomForestClassifier
 
 | Metric | Value |
 |---|---|
-| Accuracy | *(run training)* |
-| Precision | *(run training)* |
-| Recall | *(run training)* |
-| F1-score | *(run training)* |
-| ROC-AUC | *(run training)* |
+| Accuracy | 0.8929091969100714 |
+| Precision | 0.851423401920967 |
+| Recall | 0.975778699373511 |
+| F1-score | 0.909369378629799 |
+| ROC-AUC | 0.9810753325018304 |
 
 ### Generated Plots
 
